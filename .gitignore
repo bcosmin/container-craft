@@ -1,0 +1,23 @@
+# [CONTAINER-CRAFT .GITIGNORE]
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor files (VS Code, etc.)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files and logs
+*.log
+tmp/
+
+# NOTE: As requested for the demo, the 'output/' directory 
+# is explicitly NOT ignored so that generated Dockerfiles are tracked.
