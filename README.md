@@ -26,7 +26,7 @@ container-craft/
 ├── core/           # Production-grade build orchestration engine (builder.sh)
 ├── snippets/       # Modular Dockerfile building blocks (base, security, tools)
 ├── recipes/        # Application recipes (configuration configs & source code)
-├── output/         # Generated Dockerfiles and build artifacts (preserved for inspection)
+├── output/         # Generated Dockerfiles
 └── tests/          # Automated container validation scripts       
 ```
 
