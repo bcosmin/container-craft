@@ -60,6 +60,13 @@ Choose a recipe and run the orchestration engine:
 # Example: ./core/builder.sh web-app-py
 ```
 
+or you can use make
+
+```bash
+make build RECIPE=web-app-py
+make build RECIPE=web-app-go
+```
+
 **Note:** This will validate the pipeline, assemble the unified Dockerfile inside `output/<recipe_name>/`, and trigger the Docker build using the recipe's context.
 
 ### 2. Verify your image
@@ -69,6 +76,21 @@ Run the built-in test suite to ensure the image meets security and health standa
 ```bash
 ./tests/container-tests.sh container-craft/<your-app>:latest
 # Example: ./tests/container-tests.sh container-craft/web-app-py:latest
+```
+
+or using make
+
+```bash
+make test IMAGE=container-craft/fastapi-app:latest
+make test IMAGE=container-craft/go-app:latest
+```
+
+### 3. Cleanup
+
+To remove all generated output artifacts:
+
+```bash
+make clean
 ```
 
 ## Adding a New Snippet
