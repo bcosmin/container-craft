@@ -1,5 +1,10 @@
-# container-craft
+____            _            _                   ____             __ _     
+ / ___|___  _ __ | |_ __ _ ___(_)_ __   ___ _ __    / ___|_ __ __ _  / _(_) |_ 
+| |   / _ \| '_ \| __/ _` |_  / | '_ \ / _ \ '__|  | |   | '__/ _` |/ |_| | __|
+| |__| (_) | | | | || (_| |/ /| | | | |  __/ |     | |___| | | (_| |  _| | |_ 
+ \____\___/|_| |_|\__\__,_/___|_|_| |_|\___|_|      \____|_|  \__,_|_| |_|\__|
 
+ 
 **container-craft** is a modular "Docker factory" designed to orchestrate container builds using reusable snippets, bash-based orchestration, and structured recipes. It eliminates code duplication and enforces security best practices across all your microservices.
 
 ## Features
