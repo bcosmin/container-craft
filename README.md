@@ -1,42 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 160" width="100%" height="100%">
-  <defs>
-    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0db7ed;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0284c7;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="craftGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#ea580c;stop-opacity:1" />
-    </linearGradient>
-  </defs>
 
-  <!-- Dark minimal background -->
-  <rect width="650" height="160" rx="12" fill="#090d16" />
+<p align="center">
+  <img src="https://replicate.delivery/xpbkg/A69eL67Z2w4tP9t5s8b5e3s8b5e3s8b5e3s8b5e3s8b5e3s8/output.png" alt="Container-Craft Logo" width="350">
+</p>
 
-  <!-- Geometric Minimalist Icon: Modular interlocking craft/container blocks -->
-  <g transform="translate(35, 30)">
-    <!-- Base Container Box -->
-    <rect x="0" y="20" width="60" height="60" rx="10" fill="url(#boxGrad)" opacity="0.25" />
-    <rect x="10" y="30" width="60" height="60" rx="10" fill="url(#boxGrad)" />
-    
-    <!-- Modular Plug-in / Craft Block -->
-    <rect x="40" y="10" width="35" height="35" rx="8" fill="url(#craftGrad)" />
-    <!-- Inner tech dot -->
-    <circle cx="57.5" cy="27.5" r="4" fill="#090d16" />
-  </g>
+<h1 align="center">CONTAINER-CRAFT</h1>
+<h4 align="center">MODULAR DOCKER FACTORY</h4>
 
-  <!-- Typography: container-craft -->
-  <text x="145" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#f8fafc" letter-spacing="-0.5">
-    container<tspan fill="#0db7ed">-</tspan><tspan fill="#f97316">craft</tspan>
-  </text>
-  
-  <!-- Subtitle -->
-  <text x="148" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#64748b" letter-spacing="3.5">
-    MODULAR DOCKER FACTORY
-  </text>
-</svg>
-
-
+---
  
 **container-craft** is a modular "Docker factory" designed to orchestrate container builds using reusable snippets, bash-based orchestration, and structured recipes. It eliminates code duplication and enforces security best practices across all your microservices.
 
