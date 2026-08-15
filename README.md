@@ -1,10 +1,7 @@
-
 <p align="center">
-  <img src="https://replicate.delivery/xpbkg/A69eL67Z2w4tP9t5s8b5e3s8b5e3s8b5e3s8b5e3s8b5e3s8/output.png" alt="Container-Craft Logo" width="350">
+  <h1 align="center">🛠️ container-craft 🐳</h1>
+  <p align="center"><b>The Modular Docker Factory & Bash Orchestration Engine</b></p>
 </p>
-
-<h1 align="center">CONTAINER-CRAFT</h1>
-<h4 align="center">MODULAR DOCKER FACTORY</h4>
 
 ---
  
